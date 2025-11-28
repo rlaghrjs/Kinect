@@ -1,0 +1,16 @@
+﻿<Window x:Class="MainMenu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainMenu"
+        mc:Ignorable="d"
+        Title="KinectMenu" Height="450" Width="800">
+    <Grid>
+        <Image Name="KinectVideo" Stretch="Fill" />
+        <!-- 메뉴 항목을 표시할 Grid -->
+        <Button x:Name="StartGameButton" Content="Start Game" Height="50" Width="200" Click="StartGameButton_Click"/>
+        <Button x:Name="OptionsButton" Content="Options" Height="50" Width="200" Click="OptionsButton_Click" Margin="112,287,488,97"/>
+        <Button x:Name="ExitButton" Content="Exit" Height="50" Width="200" Click="ExitButton_Click" Margin="494,287,106,97"/>
+    </Grid>
+</Window>
