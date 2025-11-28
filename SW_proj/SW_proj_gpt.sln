@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SW_proj_gpt", "SW_proj_gpt\SW_proj_gpt.csproj", "{F8B3D1B2-2B92-4F7B-B7C4-EC6BD620E49B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainMenu", "MainMenu\MainMenu.csproj", "{E934B510-A3D3-471D-A14E-80FC5DDAB8F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8B3D1B2-2B92-4F7B-B7C4-EC6BD620E49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B3D1B2-2B92-4F7B-B7C4-EC6BD620E49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B3D1B2-2B92-4F7B-B7C4-EC6BD620E49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B3D1B2-2B92-4F7B-B7C4-EC6BD620E49B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E934B510-A3D3-471D-A14E-80FC5DDAB8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E934B510-A3D3-471D-A14E-80FC5DDAB8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E934B510-A3D3-471D-A14E-80FC5DDAB8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E934B510-A3D3-471D-A14E-80FC5DDAB8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32CBE829-D79B-4C36-8EA7-563717A04E17}
+	EndGlobalSection
+EndGlobal
